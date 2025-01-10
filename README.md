@@ -49,7 +49,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ArticleHub.git
+   git clone https://github.com/smrutiranjan003/squbix-articlehub.git
    ```
 2. Navigate to the project directory:
    ```bash
