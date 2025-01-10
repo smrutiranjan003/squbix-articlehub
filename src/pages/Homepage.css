@@ -1,0 +1,109 @@
+/* Main container */
+.homepage {
+    padding: 20px;
+  }
+  
+  /* Add article form styles */
+  .add-article-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fefaf0; /* Light beige */
+    border: 2px solid #000080; /* Royal blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-article-form input,
+  .add-article-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #000080;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .add-article-form textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .add-article-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000080;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-article-button:hover {
+    background-color: #4169e1; /* Lighter royal blue */
+  }
+  
+  /* Search bar styles */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000080;
+    border-radius: 5px;
+  }
+  
+  /* Filter pills styles */
+  .filter-pills {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-pill {
+    padding: 8px 15px;
+    background-color: #000080;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-pill:hover,
+  .filter-pill.active {
+    background-color: #4169e1;
+  }
+  
+  /* Article list styles */
+  .article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .article-card {
+    padding: 15px;
+    background-color: #fefaf0;
+    border: 1px solid #000080;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #000080;
+  }
+  
+  .article-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
