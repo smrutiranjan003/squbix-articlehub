@@ -1,4 +1,4 @@
-Here’s the merged and cohesive `README.md` file that combines content from both sections:
+Here’s the `README.md` file:
 
 ```markdown
 # ArticleHub: Interactive Article Reading Platform
