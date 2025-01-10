@@ -1,123 +1,70 @@
-```markdown
-# ArticleHub: Interactive Article Reading Platform
+# Getting Started with Create React App
 
-## Project Overview
-ArticleHub is a modern React-based platform designed for an immersive article reading experience. It emphasizes clean UI/UX design, responsive layouts, and efficient state management while providing robust content management features.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## Setup Instructions
+In the project directory, you can run:
 
-### Prerequisites
-- **Node.js** (latest LTS version recommended)
-- **npm** or **yarn** for package management
+### `npm start`
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ArticleHub.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd ArticleHub
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Key Features
+### `npm test`
 
-### Article List View
-- **Responsive Grid Layout**: Displays article cards with title, excerpt, category, thumbnail, and more.
-- **Filtering & Search**:
-  - Filter articles by category.
-  - Search with highlighted terms.
-  - Sort options: date, reading time, popularity.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Reading Experience
-- Clean typography with adjustable font size.
-- Estimated reading time.
-- Reading progress indicator.
-- Sticky header with title and last edited timestamp.
+### `npm run build`
 
-### Content Management
-- **Article Creation**:
-  - Rich text editor.
-  - Fields for title, excerpt, and tags.
-  - Thumbnail upload and preview mode.
-- **Article Editing**:
-  - Edit articles with full preview mode.
-  - Track edit history with timestamps.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Interactive Features
-- **Bookmarking System**: Add/remove bookmarks, persist in localStorage.
-- **Sharing Functionality**: Copy link, preview sharing options, and success/error notifications.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Known Limitations
-- Limited advanced editing capabilities.
-- No backend integration (localStorage used for data persistence).
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Future Improvements
-- Enable collaborative editing with version control.
-- Dark mode support based on system preferences.
-- Advanced analytics for reading patterns.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Folder Structure
-```plaintext
-ArticleHub/
-├── README.md          # Project documentation
-├── src/               # Source code
-│   ├── components/    # Reusable components
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   └── ...
-│   ├── pages/         # Page components
-│   │   ├── HomePage.js
-│   │   └── ...
-│   ├── App.js         # Main App component
-│   └── index.js       # Entry point
-├── public/            # Static assets
-│   └── index.html
-├── package.json       # Project dependencies and scripts
-└── docs/              # Additional documentation
-    ├── key_features.md
-    ├── known_limitations.md
-    └── future_improvements.md
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## Contribution Guidelines
-1. Fork the repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes with meaningful messages:
-   ```bash
-   git commit -m "Added feature: Article filtering by category"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request for review.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
